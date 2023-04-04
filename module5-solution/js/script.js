@@ -91,7 +91,6 @@ $(function () {
     $ajaxUtils.sendGetRequest(
       homeHtmlUrl,
       function (homeHtml) {
-        switchMenuToActive();
         insertHtml("#main-content", homeHtml);
       },
       false
